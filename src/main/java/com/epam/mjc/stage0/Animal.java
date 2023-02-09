@@ -11,8 +11,8 @@ public class Animal {
         this.hasFur = hasFur;
     }
     public void getDescription(){
-        System.out.println("This animal is mostly "+this.color+". It has "+this.numberOfPaws+" paws and ");
-        if(this.hasFur){
+        System.out.println("This animal is mostly "+color+". It has "+numberOfPaws+" paws and ");
+        if(hasFur){
             System.out.print("a fur.");
         }else
         {
